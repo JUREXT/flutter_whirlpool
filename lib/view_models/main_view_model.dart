@@ -35,6 +35,11 @@ class MainViewModel with ChangeNotifier {
       minutes: 12,
       color: Color.fromRGBO(253, 133, 53, 1),
     ),
+    ModeItemModel(
+      name: 'Super Fast',
+      minutes: 1,
+      color: Color.fromRGBO(253, 133, 53, 1),
+    ),
   ];
 
   double get waterValue => _waterValue;
